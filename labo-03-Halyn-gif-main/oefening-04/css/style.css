@@ -1,0 +1,48 @@
+body {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+
+h1 {
+  font-family: Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+  text-decoration: underline;
+  text-transform: uppercase; 
+}
+
+
+h2 {
+  font-size: 18px;
+  color: red;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 18px 0 8px;
+}
+
+
+figure {
+  margin: 5px 0;
+}
+figure img {
+  max-width: 250px;
+}
+figure figcaption {
+  font-size: 11px;
+  font-style: italic;
+}
+
+
+nav {
+  margin-bottom: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: blue;
+}
+nav a:hover {
+    
+  text-decoration: underline;
+}

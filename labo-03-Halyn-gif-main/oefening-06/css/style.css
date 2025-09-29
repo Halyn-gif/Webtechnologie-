@@ -1,0 +1,44 @@
+body {
+  background-color: #ccc;   /* серый фон */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #bbb;
+  color: #333;
+  padding: 20px;
+  margin: 0;
+}
+
+.scale {
+  margin: 0 auto;
+}
+
+.ph {
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+}
+
+/* щёлочь (alkaline) — синий */
+.ph-14 { background-color: #0066cc; }
+.ph-13 { background-color: #0077dd; }
+.ph-12 { background-color: #1188ee; }
+.ph-11 { background-color: #2299ee; }
+.ph-10 { background-color: #33aaff; }
+.ph-9  { background-color: #55bbff; }
+.ph-8  { background-color: #77ccff; }
+
+/* нейтральный — зелёный */
+.ph-7  { background-color: #00aa66; }
+
+/* кислота — розовый/красный */
+.ph-6  { background-color: #ff99bb; }
+.ph-5  { background-color: #ff88aa; }
+.ph-4  { background-color: #ff7799; }
+.ph-3  { background-color: #ff6688; }
+.ph-2  { background-color: #ff5577; }
+.ph-1  { background-color: #ff4466; }
+.ph-0  { background-color: #ff3366; }

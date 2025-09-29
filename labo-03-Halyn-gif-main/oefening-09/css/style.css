@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  text-align: center;   /* текст по центру */
+}
+
+h1, h2 {
+  font-weight: bold;    /* заголовки жирные */
+}
+
+/* Alle cirkels */
+.cirkel {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid black;
+  margin: 20px auto;    /* центрирование и отступы */
+}
+
+/* Rode cirkel */
+.rood {
+  background-color: red;
+  border-style: solid;
+}
+
+/* Groene cirkel */
+.groen {
+  background-color: green;
+  border-style: double;
+}
+
+/* Blauwe cirkel */
+.blauw {
+  background-color: blue;
+  border-style: dashed;
+}

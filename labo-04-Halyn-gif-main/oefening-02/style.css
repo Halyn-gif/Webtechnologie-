@@ -1,0 +1,14 @@
+ol {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Нечётные элементы списка */
+ol li:nth-child(odd) {
+  color: blue; 
+
+
+ol li:nth-child(even) {
+  background-color: gray; 
+}
+}
