@@ -44,3 +44,38 @@ a{
     font-size: 18px;
     
 }
+aside {
+  position: fixed;         
+  bottom: 20px;            
+  right: 20px;             
+  background: #fff;        
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
+  max-width: 250px;
+  text-align: center;
+  padding: 20px ;
+}
+
+aside h2 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #00704a;
+}
+
+aside p {
+  margin: 0 0 10px;
+  font-size: 0.9rem;
+}
+
+aside button {
+  background: #00704a;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+aside button:hover {
+  background: #005c3a;
+}

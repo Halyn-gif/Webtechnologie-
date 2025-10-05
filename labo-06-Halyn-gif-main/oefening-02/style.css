@@ -1,15 +1,4 @@
-aside {
-  padding: 20px;
-  text-align: center;
-  width: 200px;
-  border-radius: 7px;
-  background-color: white;
-  box-shadow: 3px 4px 20px 0px gray;
 
-  /* positioneer dit element in de rechterbenedenhoek */
-}
-
-/* General Styles */
 body {
   font-family: "Arial", sans-serif;
   background-color: #f0f8ff;
@@ -74,7 +63,6 @@ footer {
   width: 100%;
 }
 
-/* Sections */
 section {
   margin: 20px auto;
   padding: 20px;
@@ -96,7 +84,6 @@ ol li {
   border-radius: 10px;
 }
 
-/* Buttons */
 a {
   background-color: #ff4500;
   color: white;
@@ -112,13 +99,25 @@ a:hover {
   background-color: #ff6347;
 }
 
-/* Testimonials */
+
 p strong {
   color: #ff4500;
 }
 
-/* Hover effect for list items */
+
 li:hover {
   background-color: #f08080;
   transition: background-color 0.3s;
+}
+aside {
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 3px 4px 20px 0px gray;
+
+  position: fixed;   
+  bottom: 20px;         
+  right: 20px;          
 }

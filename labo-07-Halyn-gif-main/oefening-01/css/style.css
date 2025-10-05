@@ -1,0 +1,42 @@
+body {
+  max-width: 1100px;
+  margin: 0 auto;   
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;       
+  gap: 20px;             
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+}
+
+article {
+  background: #fff;
+  flex: 1 1 calc(33.333% - 20px);
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+article h2 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+article p {
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+article a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
