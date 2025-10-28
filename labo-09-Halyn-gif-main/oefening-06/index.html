@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+      <div class="logo-nav">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/AP_Hogeschool_logo.svg/512px-AP_Hogeschool_logo.svg.png"
+          alt="AP Hogeschool logo"
+        />
+        <nav>
+          <a href="#">HOME</a>
+          <a href="#" class="active">CONTACT</a>
+          <a href="#">Zoeken</a>
+          <input type="text"
+          name="Zoeken" placeholder="zoeken" />
+        </nav>
+      </div>
+    </header>
+
+    <hr />
+
+    
+    <main>
+      <section class="contact-form">
+        <h2>CONTACT</h2>
+
+        <h4>GEGEVENS</h4>
+        <form action="#" method="post">
+          <label for="naam">voor- en achternaam*</label>
+          <input type="text" id="naam" name="naam" placeholder="voor- en achternaam" required />
+
+          <label for="email">e-mail*</label>
+          <input type="email" id="email" name="email" placeholder="e-mail" required />
+
+          <h4>VRAAG</h4>
+          <label for="afdeling">vraag is gericht aan*</label>
+          <select id="afdeling" name="afdeling" required>
+            <option value="">-- maak hier een keuze --</option>
+            <option value="student">Studentenadministratie</option>
+            <option value="docent">Docent</option>
+            <option value="directie">Directie</option>
+          </select>
+
+          <label for="bericht">bericht*</label>
+          <textarea id="bericht" name="bericht" placeholder="bericht" required></textarea>
+
+          <button type="submit">VERZENDEN</button>
+
+          <p class="small-text">
+            <span class="red">*</span> zijn verplicht in te vullen velden.
+          </p>
+        </form>
+      </section>
+
+      <aside>
+        <h4>CONTACT</h4>
+        <p>Ellermanstraat 33, Antwerpen<br />onthaal.eli@ap.be<br />+32 3 220 33 00</p>
+
+        <h4>VOLG ONS</h4>
+        <div class="socials">
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="Instagram" /></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384005.png" alt="Facebook" /></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384017.png" alt="Twitter" /></a>
+        </div>
+      </aside>
+    </main>
+
+    
+    <footer>
+      <p>© AP-Hogeschool · All rights reserved | Terug naar boven</p>
+    </footer>
+    
+</body>
+</html>

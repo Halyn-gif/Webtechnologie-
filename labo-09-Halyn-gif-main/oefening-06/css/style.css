@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+  background-color: white;
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.logo-nav img {
+  width: 70px;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #111;
+  font-size: 0.9rem;
+}
+
+nav a.active {
+  color: red;
+  font-weight: bold;
+}
+
+nav input {
+  padding: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 2rem auto;
+  gap: 3rem;
+}
+
+
+.contact-form {
+  flex: 3;
+}
+
+h2 {
+  letter-spacing: 0.15rem;
+}
+
+h4 {
+  color: #444;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+label {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+
+button {
+  align-self: flex-start;
+  padding: 0.6rem 1.2rem;
+  background-color: #f6f6f6;
+  border: 1px solid #aaa;
+  color: #111;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+
+aside {
+  flex: 1;
+  font-size: 0.9rem;
+}
+
+.socials img {
+  width: 24px;
+  margin-right: 0.5rem;
+}
+
+.small-text {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.red {
+  color: red;
+}
+
+
+footer {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 0.8rem 0;
+  font-size: 0.8rem;
+  margin-top: 3rem;
+}
