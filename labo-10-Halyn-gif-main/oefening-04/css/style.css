@@ -1,0 +1,55 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 3rem;
+
+}
+.conteiner{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.card{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+    justify-self: center;
+    align-items: center;
+    transition: transfotm 0.3s, ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    user-select: none;
+}
+.card :hover{
+    box-shadow:0 8px 20px;
+
+}
+
+
+@keyframes pulse{
+    0%{
+        transform: translatex(0);
+    }
+    10%{
+
+    }
+    50%{
+        background-color: olive;
+        transform: scaleX(2);
+    }
+    100%{
+        background-color: gold;
+        transform: translatex(400px);
+        transform: scale(1);
+    }
+}
